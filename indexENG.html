@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhartucio Company</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&amp;subset=cyrillic"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+           	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<body>
+    
+    
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="indexENG.html" class="header__logo-link">
+                        <img src="img/logo.jpg" alt="fast food" class="header__logo-photo" width="400" height="80">
+                    </a>
+                </div>
+                <div class="header__nav">
+                    <ul class="header__list">
+                        <li class="header_item">
+                            <a href="#us"  class="header_link">About us</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="PhotogalleryENG.html" class="header_link">Photogallery</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="StoreENG.html" class="header_link">Store</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="Job openingsENG.html" class="header_link">Vacancy</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="indexRUS.html" class="header_link"><span class="header__link-first">Rus</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__nav-right">
+                    <ul class="header__list-right">
+                        <li>
+                            <div id="openModal" class="modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Login</h3>
+                                            <a href="#close"
+                                                title="Close"
+                                                class="close">×</a>
+                                        </div>
+                                        <div class="modal-body">
+                                            
+                                            <ul>
+                                                <div class="login-wrap">
+                                                    <div class="login-html">
+                                                        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+                                                        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                                                        <div class="login-form">
+                                                            <div class="sign-in-htm">
+                                                                <div class="group">
+                                                                    <label for="user" class="label">Username</label>
+                                                                    <input id="user" type="text" class="input">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Password</label>
+                                                                    <input id="pass" type="password" class="input" data-type="password">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <input id="check" type="checkbox" class="check" checked>
+                                                                    <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                                                                </div>
+                                                                <div class="group">
+                                                                    <input type="submit" class="button" value="Sign In">
+                                                                </div>
+                                                                <div class="hr"></div>
+                                                                <div class="foot-lnk">
+                                                                    <a href="#forgot">Forgot Password?</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sign-up-htm">
+                                                                <div class="group">
+                                                                    <label for="user" class="label">Username</label>
+                                                                    <input id="user" type="text" class="input">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Password</label>
+                                                                    <input id="pass" type="password" class="input" data-type="password">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Repeat Password</label>
+                                                                    <input id="pass" type="password" class="input" data-type="password">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <label for="pass" class="label">Email Address</label>
+                                                                    <input id="pass" type="text" class="input">
+                                                                </div>
+                                                                <div class="group">
+                                                                    <input type="submit" class="button" value="Sign Up">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#openModal" class="header_button"><img src="img/login.png" alt="login">Login </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+        <div class="btn-up btn-up_hide"></div>
+    </header>
+    <section class="slider">
+        <div class="container">
+            
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            THE LARGEST IMPORTER AND PRODUCER OF FISH PRODUCTS IN BELARUS                        </div>
+                        <div class="slider__text">
+                            The first importer of fish and seafood in Belarus, direct deliveries from manufacturers                        </div>
+                        <a data-fancybox data-src="" href="PhotogalleryENG.html" class="default-btn1">
+                            More detailed
+                        </a>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            MORE THAN 5 THOUSAND EMPLOYEES ALL OVER BELARUS                        </div>
+                        <div class="slider__text">
+                            The first importer of fish and seafood in Belarus, direct deliveries from manufacturers                        </div>
+                        <a class="default-btn1" href="Job openingsENG.html">Job openings</a>
+
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__title">
+                            TASTE AND NATURALNESS                        </div>
+                        <div class="slider__text">
+                            In production we use only chilled red fish, in pickling — sea salt, and in
+                            smoked — natural alder chips.
+                        </div>
+                        <a data-fancybox data-src="" href="PhotogalleryENG.html" class="default-btn1">
+                            More detailed</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="services">
+        <div class="container">
+            <div class="services__top">
+                <div class="services__title-box">
+                    <div class="services-title" id="block1">
+                        Our Services                    </div>
+                </div>
+            </div>
+            
+            <section class="chooseus-section spad">
+                    <div class="row1">
+                        <div class="col-lg-12">
+                        </div>
+                    </div>
+                    <div class="row1">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="choose-item">
+                                <img src="img/chose-icon-1.png" alt="">
+                                <h5>Support 24/7</h5>
+                                <p>Our support is always ready to help you!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="choose-item">
+                                <img src="img/chose-icon-2.png" alt="">
+                                <h5>Our employees</h5>
+                                <p>Our employees are highly qualified specialists who have a high quality of service to our customers and effective efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="choose-item">
+                                <img src="img/chose-icon-3.png" alt="">
+                                <h5>Store</h5>
+                                <p>Our store has a large selection of goods and quality products. Therefore, we are waiting for your orders!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            
+            <div class="video_area video_bg overlay">
+                <div class="video_area_inner text-center">
+                    <h3>Red<br>
+                        Fish</h3>
+                    <span>How to cook red fish in the oven!</span>
+                    <div class="video_payer">
+                        <a href="https://www.youtube.com/watch?v=AEVPdPUkEe8" class="video_btn popup-video">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+
+    <section class="services">
+        <div class="container">
+            <div class="services__top">
+                <div class="services__title-box">
+                    <div class="services-title1">
+                        Store
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        <body>
+            <section class="pen">
+            <div class="stage">
+            <div class="element merch1"></div>
+            <div class="element merch2"></div>
+            <div class="element merch3"></div>
+            </div>
+            </section>
+            <section class="market">
+                <div class="container">
+                <a href="StoreENG.html" class="services__btn"> Store
+                </a>
+                </div>
+                </section>
+        </div>
+    </div>
+    </div>
+
+    <section class="about">
+        <div class="container">
+                    <div class="about__title" id="us">
+                       About Company
+                    </div>
+                  <div class="about_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-md-6">
+                    <div class="about_thumb">
+                        <img class="img-fluid" src="img/231.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-6">
+                    <div class="about_info">
+                        <h3>Zhartucio Company</h3>
+                        <p>Our company has been on the market since 2018. We value each of our customers, so high quality service is a priority for us. You can always ask questions online or by phone and get detailed advice. A team of professionals monitors the constant replenishment and updating of the assortment, the development of promotions and a system of favorable discounts. We work all over the country. The geography of our sales is expanding annually to other countries. Our mission is to constantly develop and improve the quality of our products through the introduction of innovative technologies.  </p>
+                            <img src="img/signature.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <br>
+    <section class="services">
+        <div class="container">
+            <div class="services__top">
+                <div class="services__title-box">
+                    <div class="services-title">
+                        Employees
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="personale-item">
+						<div class="personale-pic">
+							<img src="img/personale1.jpg" alt="">
+						</div>
+						<h4>Dmitriy Smirnov</h4>
+						<p>A highly qualified specialist who has very promising skills in his competence</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="personale-item">
+						<div class="personale-pic">
+							<img src="img/personale2.jpg" alt="">
+						</div>
+						<h4>Alexey Pavlovskiy</h4>
+						<p>A highly qualified specialist with high-ranking projects behind him</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="personale-item">
+						<div class="personale-pic">
+							<img src="img/personale3.jpg" alt="">
+						</div>
+						<h4>Egor Petrovskiy</h4>
+						<p>A highly qualified specialist is distinguished by efficiency in our company</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="personale-item">
+						<div class="personale-pic">
+							<img src="img/personale4.jpg" alt="">
+						</div>
+						<h4>Michail Avsey</h4>
+						<p>A highly qualified specialist with extensive experience in his competence</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<br>
+<br>
+<br>
+<section class="subscribe_part section_padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="subscribe_part_content">
+                    <h2>Free Consultation!</h2>
+                    <P> If you have any questions or suggestions, please provide your email, and within a few minutes we will contact you to discuss this issue.</P>
+                    <div class="subscribe_form">
+                        <input type="email" placeholder="Enter your mail">
+                        <a class="btn_1" href="#openModal2">Subscribe</a>
+
+<div id="openModal2" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Thank you for contacting us!</h3>
+        <a href="#close" title="Close" class="close">×</a>
+      </div>
+      <div class="modal-body">    
+        <ul>
+			<li>Our manager will contact you soon!</li>
+		</ul>
+      </div>
+    </div>
+  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+    <div class="container">
+        <div class="services__top">
+            <div class="services__title-box">
+                
+                <div class="services-title">
+                   Comments
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <section class="customers">
+        <div class="wrapper">
+            <div class="customers__arrow">
+                <div class="customers_arrows">
+                </div>
+            </div>
+            <div class="customers__reviews">
+                <div class="customers__review">
+                    <div class="customers__review-text">
+                        Fresh fish of excellent quality, very tasty and quickly collected dishes, polite, friendly guys.                    </div>
+                    <div class="customers__review-data">
+                        <img src="img/Person1.png" alt="Person1" width="80" height="80">
+                        <div class="customers__name-star">
+                            <div class="customers__review-name">
+                                Rustam Makhmadaliyev                            </div>
+                            <img src="img/star.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="customers__review">
+                    <div class="customers__review-text">
+                        Super, super, super!!! So delicious, fast, friendly! I order in this store specially from the other side of the city.                    </div>
+                    <div class="customers__review-data">
+                        <img src="img/Person2.png" alt="Person2" width="80" height="80">
+                        <div class="customers__name-star">
+                            <div class="customers__review-name">
+                                Denis Leonovich                            </div>
+                            <img src="img/star.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+                 <div class="customers__review">
+                    <div class="customers__review-text">
+                        Pretty good fish assortment. Frozen, chilled, smoked, canned. Snacks and caviar. There were no complaints about the quality. The staff is responsive, they will help you choose, explain.                    </div>
+                    <div class="customers__review-data">
+                        <img src="img/Person3.png" alt="Person3" width="80" height="80">
+                        <div class="customers__name-star">
+                            <div class="customers__review-name">
+                                Yulia Lyubimova                            </div>
+                            <img src="img/star.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.885788447394!2d26.83547163580052!3d54.30597021683344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dc7468b11015fb%3A0x7f7b0037793f21a5!2z0KPQniAi0JzQvtC70L7QtNC10YfQtdC90YHQutC40Lkg0YLQvtGA0LPQvtCy0L4t0Y3QutC-0L3QvtC80LjRh9C10YHQutC40Lkg0LrQvtC70LvQtdC00LYiINCR0LXQu9C60L7QvtC_0YHQvtGO0LfQsA!5e0!3m2!1sru!2sby!4v1666122591853!5m2!1sru!2sby" height="590" style="border: 0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-logo-item">
+                        <div class="f-logo">
+                            <a href="#"><img src="img/flexbe_logo.png" alt="" width="250" height="100"></a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/o_kras/status/1258995751532793857?lang=gl"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.google.by/"><i class="fa fa-google-plus"></i></a>
+                            <a href="https://www.instagram.com/spb_edition/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Our Comments</h5>
+                        <div class="footer-blog">
+                            <a href="#" class="fb-item">
+                                <h6>Rustam Makhmadaliyev</h6>
+                                <span class="blog-time"><i class="fa fa-clock-o"></i> Jul 06, 2018</span>
+                            </a>
+                            <a href="#" class="fb-item">
+                                <h6>Denis Leonovich </h6>
+                                <span class="blog-time"><i class="fa fa-clock-o"></i> Feb 02, 2019</span>
+                            </a>
+                            <a href="#" class="fb-item">
+                                <h6>Yulia Lyubimova</h6>
+                                <span class="blog-time"><i class="fa fa-clock-o"></i> Nov 13, 2020</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>Services</h5>
+                        <ul class="workout-program">
+                            <li><a href="#">Bodybuilding</a></li>
+                            <li><a href="#">Running</a></li>
+                            <li><a href="#">Streching</a></li>
+                            <li><a href="#">Weight Loss</a></li>
+                            <li><a href="#">Gym Fitness</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-widget">
+                        <h5>Get Info</h5>
+                        <ul class="footer-info">
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>Phone:</span>
+                                <a href="tel:">+375(44)777-77-75</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Email:</span>
+                                <a  href="mailto:">ZhartucioCompany@mail.ru</a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
